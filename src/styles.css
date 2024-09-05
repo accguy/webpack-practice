@@ -1,0 +1,31 @@
+body {
+  background: rgb(74, 177, 214);
+}
+
+/* div {
+  width: 500px;
+  height: 500px;
+  background-image: url("./rickdom.jpg");
+} */
+
+button {
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 20px;
+  color: royalblue;
+  cursor: pointer;
+}
+button::before {
+  display: block;
+  content: "";
+  width: 35px;
+  height: 35px;
+  background-image: url(sp_main.png);
+  background-size: 221px 212px;
+}
+
+img {
+  border-radius: 50px;
+}
