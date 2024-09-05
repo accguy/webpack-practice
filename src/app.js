@@ -19,3 +19,4 @@ if (process.env.NODE_ENV === "development") {
   env = pro;
 }
 console.log("🚀 ~ env:", env);
+console.log("🚀 ~ pw:", pw);
